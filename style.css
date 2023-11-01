@@ -1,0 +1,112 @@
+.header {
+  display: flex;
+  background-color: blue;
+  color: white;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 80px;
+  margin-bottom: 30px;
+}
+.button:hover {
+  background-color: white;
+}
+.button {
+  border: none;
+  background: blue;
+}
+
+.header3 {
+  display: flex;
+  background-color: blue;
+  color: white;
+  justify-content: center;
+  flex-direction: row;
+  height: 80px;
+  margin-bottom: 30px;
+}
+.button3:hover {
+  background-color: white;
+}
+.button3 {
+  border: none;
+  background: blue;
+  max-width: 100px;
+}
+
+.header4 {
+  display: flex;
+  background-color: blue;
+  color: white;
+  justify-content: center;
+  flex-direction: row;
+  height: 80px;
+  margin-bottom: 30px;
+}
+.button4:hover {
+  background-color: white;
+}
+.button4 {
+  border: none;
+  background: blue;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100px;
+}
+
+.header5 {
+  display: flex;
+  background-color: blue;
+  justify-content: flex-end;
+  color: white;
+  height: 80px;
+  margin-bottom: 30px;
+}
+.button5:hover {
+  background-color: white;
+}
+.button5 {
+  border: none;
+  background: blue;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  align-self: center;
+  max-width: 100px;
+}
+
+.header6 {
+  display: flex;
+  background-color: blue;
+  color: white;
+  height: 80px;
+  margin-bottom: 30px;
+  flex-direction: row-reverse;
+}
+.button6:hover {
+  background-color: white;
+}
+.button6 {
+  border: none;
+  background: blue;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  max-width: 100px;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1000px;
+  height: 300px;
+  border: 2px black solid;
+}
+.square {
+  width: 100px;
+  height: 100px;
+  border: 2px black solid;
+  padding: 10px;
+}
